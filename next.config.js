@@ -23,6 +23,10 @@ module.exports = {
         protocol: 'https',
         hostname: 'ipfs.io',
       },
+      {
+        protocol: 'https',
+        hostname: 'euc.li',
+      },
     ],
   },
 };
