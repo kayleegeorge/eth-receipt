@@ -34,7 +34,7 @@ export default function AddressBubble(
   const accountType = props.addressProfile.account?.type;
   const profileLink =
     getProfileLink(name, accountType) ??
-    `${getChainExplorerByChainId(props.chainId)}/address/${address}`;
+    `${getChainExplorerByChainId(props.chainId)}/address/${props.addressProfile.accountAddress}`;
 
   return (
     <a
